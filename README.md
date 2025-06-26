@@ -29,6 +29,22 @@ This table summarizes the accuracy achieved by each predictive model on the test
 
 ---
 
+### Dashboard Visualizations
+
+Interactive Power BI dashboard, highlighting key model performance metrics and restaurant-specific insights:
+
+#### 1. Model Performance & Overall Summary
+
+![Model Performance Dashboard](model.png)
+*This page provides an overview of model accuracies, the best performing model, total reviews analyzed, and overall sentiment distribution.*
+
+#### 2. Restaurant Specific Sentiments & Reviews
+
+![Restaurant Specific Sentiments Dashboard](senti.png)
+*This page allows for deep dives into individual restaurants, showing average ratings, sentiment breakdown per restaurant, and sample reviews for qualitative analysis.*
+
+---
+
 ### Technologies Used:
 
 * Python (Pandas, NumPy, Scikit-learn, NLTK, TensorFlow/Keras, Matplotlib, Seaborn, WordCloud)
