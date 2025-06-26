@@ -13,17 +13,19 @@ This project performs multi-class sentiment analysis on restaurant reviews, clas
 
 ---
 
-### How to Explore This Project:
+### Model Performance Summary
 
-You can explore this project in two primary ways:
+This table summarizes the accuracy achieved by each predictive model on the test set:
 
-1.  **Review the Code:**
-    * Navigate to the `notebooks/` directory and open `your_sentiment_analysis.ipynb`. This notebook details the entire analytical pipeline, from data loading and cleaning to model training, evaluation, and the generation of the output data files.
+| Model             | Accuracy   |
+| :---------------- | :--------- |
+| LSTM              | 0.8500     |
+| BiLSTM            | 0.8539     |
+| BiGRU             | 0.8496     |
+| Logistic Regression | 0.8533     |
+| Lasso Regression  | 0.8388     |
+| Random Forest     | 0.8259     |
 
-2.  **Interact with the Power BI Dashboard:**
-    * **Download:** Clone this entire repository or specifically download the `powerbi/Restaurant_Sentiment_Dashboard.pbix` file along with the two CSV files from the `data/` folder: `sentiment_analysis_data.csv` and `model_accuracies.csv`.
-    * **Open:** Ensure you have [Power BI Desktop](https://powerbi.microsoft.com/desktop/) installed. Open the `.pbix` file.
-    * **Explore:** The dashboard is designed to be interactive, allowing you to filter by restaurant, view sentiment distributions, compare model accuracies, and dive into specific review details.
 
 ---
 
@@ -39,10 +41,9 @@ You can explore this project in two primary ways:
 
 1.  **Clone the Repository:**
     ```bash
-    git clone [https://github.com/YourUsername/YourRepositoryName.git](https://github.com/YourUsername/YourRepositoryName.git)
-    cd YourRepositoryName
+    git clone https://github.com/afreenasif/Restaurant-Reviews-Sentiment-Analysis.git
+    cd Restaurant-Reviews-Sentiment-Analysis
     ```
-    (Replace `YourUsername` and `YourRepositoryName` with your actual GitHub details.)
 
 2.  **Install Dependencies:** It's recommended to create a virtual environment.
     ```bash
