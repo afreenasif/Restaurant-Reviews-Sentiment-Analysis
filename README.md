@@ -5,11 +5,11 @@ This project performs multi-class sentiment analysis on restaurant reviews, clas
 
 ### Project Files:
 
-* `notebooks/your_sentiment_analysis.ipynb`: The Python notebook containing all data preprocessing, model training, and evaluation steps.
-* `data/Restaurant_reviews_corrected.csv`: The original raw dataset used for the analysis.
-* `data/sentiment_analysis_data.csv`: This file contains the full dataset with predicted sentiment labels from the best-performing model, ready for immediate use in Power BI.
-* `data/model_accuracies.csv`: Summarizes the performance (accuracy) of all trained models, allowing for a clear comparison.
-* `powerbi/Restaurant_Sentiment_Dashboard.pbix`: The Power BI Desktop file for the interactive dashboard.
+* `restaurant_sentiment_analysis.ipynb`: The Python notebook containing all data preprocessing, model training, and evaluation steps.
+* `Restaurant_reviews_cleaned.csv`: The original raw dataset used for the analysis.
+* `sentiment_analysis_data.csv`: This file contains the full dataset with predicted sentiment labels from the best-performing model, ready for immediate use in Power BI.
+* `model_accuracies.csv`: Summarizes the performance (accuracy) of all trained models, allowing for a clear comparison.
+* `Restaurant_Reviews_Analysis.pbix`: The Power BI Desktop file for the interactive dashboard.
 
 ---
 
