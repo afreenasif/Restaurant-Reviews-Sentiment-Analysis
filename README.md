@@ -36,12 +36,10 @@ Interactive Power BI dashboard, highlighting key model performance metrics and r
 #### 1. Model Performance & Overall Summary
 
 ![Model Performance Dashboard](model.png)
-*This page provides an overview of model accuracies, the best performing model, total reviews analyzed, and overall sentiment distribution.*
 
 #### 2. Restaurant Specific Sentiments & Reviews
 
 ![Restaurant Specific Sentiments Dashboard](senti.png)
-*This page allows for deep dives into individual restaurants, showing average ratings, sentiment breakdown per restaurant, and sample reviews for qualitative analysis.*
 
 ---
 
